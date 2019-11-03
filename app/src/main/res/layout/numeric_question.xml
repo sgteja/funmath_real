@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#1A4C80"
+  android:gravity="center_horizontal"
+  >
+    <TextView android:id="@+id/textView1"
+              android:layout_width="wrap_content"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:layout_height="wrap_content"
+              android:text="@string/maths_question_title"
+              android:layout_marginTop="15dp"
+              android:gravity="center"></TextView>
+
+    <TextView
+        android:id="@+id/maths_question_text"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="35sp" 
+        />
+
+    <ListView
+        android:id="@+id/option_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff">
+        
+    </ListView>
+
+    
+
+    <TextView
+        android:id="@+id/maths_summary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView" 
+        android:gravity="center"/>
+
+</LinearLayout>

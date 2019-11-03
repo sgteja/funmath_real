@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">funmath_real</string>
+    <string name="practice">Practice</string>
+	<string name="title">Mathify</string>
+    <string name="select_question_type">Select question type</string>
+    <string name="maths_question_title">Calculate</string>
+    <string name="numeric">Numeric Question</string>
+    <string name="maths_answer_text">Check</string>
+    <string name="overall_summary"></string>
+    <string name="level_3">level 3</string>
+</resources>
